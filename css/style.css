@@ -654,6 +654,10 @@ img {
   font-weight: 500;
 }
 
+.contact-form-input-box {
+  text-align: center;
+}
+
 .input-box {
   display: flex;
   position: relative;
@@ -720,7 +724,7 @@ img {
 
 .address-item:nth-child(3) {
   border-bottom: none;
-
+  
 }
 
 .address-title {
@@ -737,4 +741,15 @@ img {
   font-size: 16px;
   font-weight: 400;
   text-decoration-line: none;
+}
+
+.contact-link {
+  display: inline-block;
+  margin-top: 20px;
+  color: #fff;
+  font-weight: 500;
+  padding: 17px 30px;
+  text-decoration-line: none;
+  border-radius: 10px;
+  background-color: #7297EF;
 }
